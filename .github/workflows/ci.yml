@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-
+# remote: Permission to alexbdaniel/test-docs.git denied to github-actions[bot].
 jobs:
   build:
     name: Deploy docs
