@@ -27,5 +27,3 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
-        env:
-          CONFIG_FILE: src/mkdocs.yml
